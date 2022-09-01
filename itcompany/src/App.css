@@ -1,0 +1,25 @@
+*{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar a:hover {
+  color: #00ff00 !important ;
+}
+.navbar-light .navbar-nav .nav-link.active{
+  color: #ff6600;
+}
+
+h1, h3, h4, h5 {
+  color: #ff6600;
+}
+
+.contact-form-container{
+  width: 60vw;
+}
+
+/*Until the screen size is reached 768px keep applying below styling*/
+@media(max-width: 768px){
+  .contact-form-container{
+      width: 88vw;
+  }
+}
